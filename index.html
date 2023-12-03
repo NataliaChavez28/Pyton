@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <h1>Bienvenido a la Página Principal</h1>
+
+    <p>los siguientes temas vistos en cada uno de los cortes durante el perdiodo del semestre.</p>
+
+    <button onclick="redirectTo('corte1.html')">Ir a Corte 1</button>
+    <button onclick="redirectTo('corte2.html')">Ir a Corte 2</button>
+    <button onclick="redirectTo('corte3.html')">Ir a Corte 3</button>
+
+    <script>
+        function redirectTo(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
